@@ -73,7 +73,6 @@ img {
   width: 100vw;
   height: 100vh;
   max-width: 1200px;
-  background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center ;
@@ -122,3 +121,4 @@ footer {
   display: block;
   padding-top: 5px;
 }
+

@@ -96,7 +96,6 @@ img {
   width: 100vw;
   height: 100vh;
   max-width: 1200px;
-  background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center ;
@@ -207,4 +206,5 @@ animation: fadeInOut 3s ease forwards;
 90% { opacity: 1; }
 100% { opacity: 0; transform: scale(0.9); }
 }
+
 

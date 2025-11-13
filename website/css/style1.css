@@ -4,16 +4,13 @@
 }
  
 .center {
-  width: 100vw;
-  height: 100vh;
-  max-width: 1200px;
-  background-image: url("../images/A\ -\ Copy.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center ;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width:100%
+  height:max-content;
+  position:absolute;
+  padding-inline:15%
+  padding-block:5%
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
   flex: 1 0 auto;
   margin: 0 auto;
@@ -50,3 +47,4 @@
     padding-top: 5px;
   }
 }
+

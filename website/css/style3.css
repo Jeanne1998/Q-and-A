@@ -7,10 +7,6 @@
  text-indent: 3px;
   text-align: center;
   white-space: nowrap;
-  top: 350px;  
-  left: 500px;    
-  position: absolute;
-
 }
 
 .next-button button {
@@ -28,15 +24,11 @@ cursor: pointer;
  text-indent: 3px;
   text-align: center;
   white-space: nowrap;
-  top: 350px;  
-  left: 360px;    
-  position: absolute;
-
 }
 
 .back-button button {
 padding: 10px 20px;
-font-size: 20px;
+font-size: 16px;
 border-radius: 8px;
 border: none;
 background-color:white;
@@ -44,11 +36,8 @@ color: black;
 cursor: pointer;
 }
 
-html {
-  height: 100%;
-}
-
-html, body {
+html, 
+body {
   height: 100vh;
   width: 100vw;
   padding: 0px;
@@ -167,4 +156,5 @@ footer {
     padding: 10px 0;
   }
 }
+
 

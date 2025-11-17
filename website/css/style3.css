@@ -4,42 +4,41 @@
 }
 
 .next-button {
- text-indent: 3px;
- text-align: center;
- white-space: nowrap;
+  text-indent: 3px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .next-button button {
- padding: 10px 20px;
- font-size: 16px;
- border-radius: 8px;
- border: none;
- background-color:white;
- color: black;
- cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
-
 .back-button {
- text-indent: 3px;
+  text-indent: 3px;
   text-align: center;
   white-space: nowrap;
 }
 
 .back-button button {
-padding: 10px 20px;
-font-size: 16px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
-html, 
+html,
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   padding: 0px;
   margin: 0px;
 }
@@ -47,11 +46,11 @@ body {
 .center {
   display: flex;
   flex-direction: column;
-  width:100%
-  height:max-content;
+  width: 100%;
+  height: max-content;
   position: absolute;
-  padding-inline: 15%
-  padding-block: 5%
+  padding-inline: 15%;
+  padding-block : 5%;
 }
 
 .center .bottom {
@@ -59,20 +58,20 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 70px;
-  gap: 30px;
+  gap: 30px ;
 }
 
-.center. buttom .buttons {
- display: flex;
- flex-direction: row;
- justify-content: end;
- align-items: end;
- flex: 0.5;
- gap: 30px;
- margin-right: 20%;
+.center .bottom .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  flex: 0.5;
+  gap: 20px;
+  margin-right: 20%;
 }
 
-.center .bottom. image {
+.center .bottom .image {
   flex: 1;
   position: relative;
   max-width: 600px;
@@ -85,30 +84,31 @@ body {
 .center .bottom .image img {
   border-radius: 5px;
   height: auto;
-  width: 100%
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
-  .container .bottom {
+  .center .bottom {
     flex-direction: column;
   }
 
-.center .bottom .image {
-  flex: initial;
-  width: 100%;
-  height: auto;
-  max-width: max-content;
-}
-  
-.center  .bottom .buttons { 
-  margin-right: 0px;
+  .center .bottom .image {
+    flex: initial;
+    width: 100%;
+    height: auto;
+    max-width: max-content;
+  }
+
+  .center .bottom .buttons {
+    margin-right: 0px;
+  }
 }
 
 .box1 {
   color: azure;
-  front-size: 26px;
+  font-size: 26px;
   margin-block: 10px;
-  front-weight: bold;
+  font-weight: bold; 
 }
 
 .box1 p {
@@ -121,20 +121,20 @@ body {
   justify-content: center;
   height: 100vh;
 }
-  
+
 .link {
   padding-top: 30px;
   display: flex;
   justify-content: center;
-  flex: 1 0 auto:
+  flex: 1 0 auto;
 }
 
 .link img {
-    width: 45px;
-    opacity: 0.5;
-    transition: all 0.5s;
+  width: 45px;
+  opacity: 0.5;
+  transition: all 0.5s;
 }
-  
+
 .link img:hover {
   opacity: 1;
 }
@@ -152,11 +152,3 @@ footer {
   display: block;
   padding-top: 5px;
 }
-
-
-
-
-
-
-
-

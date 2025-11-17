@@ -35,8 +35,7 @@
   cursor: pointer;
 }
 
-html,
-body {
+html,body {
   height: 100%;
   width: 100%;
   padding: 0px;
@@ -69,22 +68,6 @@ body {
   flex: 0.5;
   gap: 20px;
   margin-right: 20%;
-}
-
-.center .bottom .image {
-  flex: 1;
-  position: relative;
-  max-width: 600px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
-.center .bottom .image img {
-  border-radius: 5px;
-  height: auto;
-  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -153,4 +136,5 @@ footer {
 }
 
 }
+
 

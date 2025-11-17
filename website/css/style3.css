@@ -54,7 +54,7 @@ body {
   padding-block: 5%
 }
 
-.center bottom {
+.center .bottom {
   bottom: 0px;
   display: flex;
   flex-direction: row;
@@ -152,6 +152,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

@@ -1,12 +1,12 @@
 * {
-  box-sizing: border-box; /* ทำให้ padding และ border ถูกรวมอยู่ในความกว้าง/ความสูงที่กำหนด */
-  font-family: 'Sarabun', sans-serif; /* ตั้งค่าฟอนต์หลักเป็น Sarabun */
+  box-sizing: border-box;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .next-button {
   text-indent: 3px;
   text-align: center;
-  white-space: nowrap; /* ป้องกันการขึ้นบรรทัดใหม่ภายในองค์ประกอบ */
+  white-space: nowrap;
 }
 
 .next-button button {
@@ -16,7 +16,7 @@
   border: none;
   background-color: white;
   color: black;
-  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นรูปมือเมื่อชี้ */
+  cursor: pointer;
 }
 
 .back-button {
@@ -47,33 +47,32 @@ html, body {
   flex-direction: column;
   width: 100%;
   height: max-content;
-  position: absolute; /* จัดตำแหน่งโดยอ้างอิงจากพาเรนต์ที่มี position (หรือ body) */
-  padding-inline: 15%; /* padding ซ้ายและขวา */
-  padding-block: 5%; /* padding บนและล่าง */
+  position: absolute;
+  padding-inline: 15%;
+  padding-block: 5%;
 }
 
 .center .bottom {
-  bottom: 0px; /* จัดตำแหน่งที่ด้านล่างภายในพาเรนต์ที่มี position */
+  bottom: 0px;
   display: flex;
   flex-direction: row;
   margin-top: 70px;
-  gap: 30px; /* ระยะห่างระหว่างรายการ flex */
+  gap: 30px;
 }
 
 .center .bottom .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: end; /* จัดเรียงปุ่มไปทางขวา */
-  align-items: end; /* จัดเรียงปุ่มไปที่ด้านล่าง */
-  flex: 0.5; /* กำหนดความกว้างสัมพัทธ์ */
+  justify-content: end;
+  align-items: end;
+  flex: 0.5;
   gap: 20px;
   margin-right: 20%;
 }
 
 @media (max-width: 1000px) {
-  /* กฎสำหรับหน้าจอที่ความกว้างไม่เกิน 1000px */
   .center .bottom {
-    flex-direction: column; /* เปลี่ยนทิศทาง flex จากแนวนอนเป็นแนวตั้ง */
+    flex-direction: column;
   }
 
   .center .bottom .image {
@@ -101,9 +100,9 @@ html, body {
 
 .main-container {
   display: flex;
-  align-items: center; /* จัดตำแหน่งเนื้อหาให้อยู่กึ่งกลางแนวตั้ง */
-  justify-content: center; /* จัดตำแหน่งเนื้อหาให้อยู่กึ่งกลางแนวนอน */
-  height: 100vh; /* ใช้ความสูงเต็มหน้าจอ (viewport height) */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .link {
@@ -115,12 +114,12 @@ html, body {
 
 .link img {
   width: 45px;
-  opacity: 0.5; /* ทำให้รูปภาพโปร่งใสครึ่งหนึ่ง */
-  transition: all 0.5s; /* เพิ่ม transition สำหรับการเปลี่ยนแปลง opacity */
+  opacity: 0.5;
+  transition: all 0.5s;
 }
 
 .link img:hover {
-  opacity: 1; /* เมื่อโฮเวอร์ ให้แสดงรูปภาพเต็มความทึบ */
+  opacity: 1;
 }
 
 footer {
@@ -128,7 +127,7 @@ footer {
   max-width: 800px;
   height: 70px;
   display: flex;
-  justify-content: space-between; /* กระจายพื้นที่ระหว่างรายการ */
+  justify-content: space-between;
   flex: 0 0 auto;
 }
 
@@ -210,6 +209,7 @@ footer {
 }
 
 }
+
 
 
 

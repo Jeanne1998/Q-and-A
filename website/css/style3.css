@@ -72,11 +72,34 @@ body {
  margin-right: 20%;
 }
 
+.center .bottom. image {
+  flex: 1;
+  position: relative;
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.center .bottom .image img {
+  border-radius: 5px;
+  height: auto;
+  width: 100%
+}
+
 @media (max-width: 1000px) {
   .container .bottom {
     flex-direction: column;
   }
 
+.center .bottom .image {
+  flex: initial;
+  width: 100%;
+  height: auto;
+  max-width: max-content;
+}
+  
 .center  .bottom .buttons { 
   margin-right: 0px;
 }
@@ -129,6 +152,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

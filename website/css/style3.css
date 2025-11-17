@@ -5,18 +5,18 @@
 
 .next-button {
  text-indent: 3px;
-  text-align: center;
-  white-space: nowrap;
+ text-align: center;
+ white-space: nowrap;
 }
 
 .next-button button {
-padding: 10px 20px;
-font-size: 20px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
+ padding: 10px 20px;
+ font-size: 16px;
+ border-radius: 8px;
+ border: none;
+ background-color:white;
+ color: black;
+ cursor: pointer;
 }
 
 
@@ -69,9 +69,10 @@ body {
  align-items: end;
  flex: 0.5;
  gap: 30px;
+ margin-right: 20%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .container .bottom {
     flex-direction: column;
   }
@@ -91,6 +92,13 @@ body {
   margin-block: 20px;
 }
 
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+  
 .link {
   padding-top: 30px;
   display: flex;
@@ -121,6 +129,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

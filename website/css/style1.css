@@ -40,7 +40,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 200vh;
 }
 
 @media (max-width: 100px) {
@@ -80,3 +80,4 @@ footer {
 }
 
 }
+

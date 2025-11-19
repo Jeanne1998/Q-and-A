@@ -3,13 +3,13 @@
   font-family: 'Sarabun', sans-serif;
 }
 
-.next-button {
+.back-button {
   text-indent: 3px;
   text-align: center;
   white-space: nowrap;
 }
 
-.next-button button {
+.back-button button {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 8px;
@@ -19,13 +19,13 @@
   cursor: pointer;
 }
 
-.back-button {
+.next-button {
   text-indent: 3px;
   text-align: center;
   white-space: nowrap;
 }
 
-.back-button button {
+.next-button button {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 8px;
@@ -209,6 +209,7 @@ footer {
 }
 
 }
+
 
 
 

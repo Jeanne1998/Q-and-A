@@ -28,7 +28,7 @@ html, body {
 
 .center {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   height: max-content;
   position: absolute;
@@ -54,6 +54,13 @@ html, body {
   margin-right: 20%;
 }
 
+.box1 {
+  color: azure;
+  font-size: 26px;
+  margin-block: 10px;
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
   .center .bottom {
     flex-direction: column;
@@ -62,13 +69,6 @@ html, body {
 .center .bottom .buttons {
     margin-right: 0px;
   }
-
-.box1 {
-  color: azure;
-  font-size: 26px;
-  margin-block: 10px;
-  font-weight: bold; 
-}
 
 .box1 p {
   margin-block: 20px;
@@ -82,7 +82,7 @@ html, body {
 }
 
 .link img {
-  width: 45px;
+  width: 45px;7
   opacity: 0.5;
   transition: all 0.5s;
 }
@@ -105,6 +105,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

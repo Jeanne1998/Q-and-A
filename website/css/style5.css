@@ -8,6 +8,7 @@
   text-align: center;
   white-space: normal;
   top: 370px;
+  position: static;
 }
 
 .next-button .12 bottons {
@@ -25,6 +26,7 @@ cursor: pointer;
   text-align: center;
   white-space: normal;
   top: 430px;
+  position: static;
 }
 
 .next-button .13 bottons {
@@ -42,6 +44,7 @@ cursor: pointer;
   text-align: center;
   white-space: normal;
   top: 490px;
+  position: static;
 }
 
 .next-button .14 bottons {
@@ -140,6 +143,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

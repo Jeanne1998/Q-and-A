@@ -3,13 +3,45 @@
   font-family: 'Sarabun', sans-serif;
 }
 
-.next-button {
+.next-button 12{
  text-indent: 3px;
   text-align: center;
   white-space: normal;
 }
 
-.next-button botton {
+.next-button .12 botton {
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 8px;
+border: none;
+background-color:white;
+color: black;
+cursor: pointer;
+}
+
+.next-button 13{
+ text-indent: 3px;
+  text-align: center;
+  white-space: normal;
+}
+
+.next-button .13 botton {
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 8px;
+border: none;
+background-color:white;
+color: black;
+cursor: pointer;
+}
+
+.next-button 14{
+ text-indent: 3px;
+  text-align: center;
+  white-space: normal;
+}
+
+.next-button .14 botton {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -105,6 +137,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

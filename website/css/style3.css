@@ -35,7 +35,8 @@
   cursor: pointer;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   padding: 0px;
@@ -49,7 +50,7 @@ html, body {
   height: max-content;
   position: absolute;
   padding-inline: 15%;
-  padding-block: 5%;
+  padding-block : 5%;
 }
 
 .center .bottom {
@@ -57,7 +58,7 @@ html, body {
   display: flex;
   flex-direction: row;
   margin-top: 70px;
-  gap: 30px;
+  gap: 30px ;
 }
 
 .center .bottom .buttons {
@@ -70,77 +71,20 @@ html, body {
   margin-right: 20%;
 }
 
-@media (max-width: 1000px) {
-  .center .bottom {
-    flex-direction: column;
-  }
+.center .bottom .image {
+  flex: 1;
+  position: relative;
+  max-width: 600px;
 
-  .center .bottom .image {
-    flex: initial;
-    width: 100%;
-    height: auto;
-    max-width: max-content;
-  }
-
-  .center .bottom .buttons {
-    margin-right: 0px;
-  }
-}
-
-.box1 {
-  color: azure;
-  font-size: 26px;
-  margin-block: 10px;
-  font-weight: bold;
-}
-
-.box1 p {
-  margin-block: 20px;
-}
-
-.main-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.link {
-  padding-top: 30px;
-  display: flex;
-  justify-content: center;
-  flex: 1 0 auto;
-}
-
-.link img {
-  width: 45px;
-  opacity: 0.5;
-  transition: all 0.5s;
-}
-
-.link img:hover {
-  opacity: 1;
-}
-
-footer {
-  width: 100%;
-  max-width: 800px;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  flex: 0 0 auto;
-}
-
-.col-1 {
-  display: block;
-  padding-top: 5px;
-}
-  flex-direction: row;
+  flex-direction: column;
   justify-content: end;
-  align-items: end;
-  flex: 0.5;
-  gap: 20px;
-  margin-right: 20%;
+}
+
+.center .bottom .image img {
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -158,6 +102,7 @@ footer {
   .center .bottom .buttons {
     margin-right: 0px;
   }
+}
 
 .box1 {
   color: azure;
@@ -207,10 +152,3 @@ footer {
   display: block;
   padding-top: 5px;
 }
-
-}
-
-
-
-
-

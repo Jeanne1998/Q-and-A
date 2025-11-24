@@ -7,9 +7,10 @@
  text-indent: 3px;
   text-align: center;
   white-space: normal;
+  top: 370px;
 }
 
-.next-button .12 botton {
+.next-button .12 bottons {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -23,9 +24,10 @@ cursor: pointer;
  text-indent: 3px;
   text-align: center;
   white-space: normal;
+  top: 430px;
 }
 
-.next-button .13 botton {
+.next-button .13 bottons {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -39,9 +41,10 @@ cursor: pointer;
  text-indent: 3px;
   text-align: center;
   white-space: normal;
+  top: 490px;
 }
 
-.next-button .14 botton {
+.next-button .14 bottons {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -137,6 +140,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

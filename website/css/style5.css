@@ -3,45 +3,13 @@
   font-family: 'Sarabun', sans-serif;
 }
 
-.next-button Panicking.{
+.next-button {
  text-indent: 3px;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
 }
 
-.next-button.Panicking bottons {
-padding: 10px 20px;
-font-size: 20px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
-}
-
-.next-button Trying.{
- text-indent: 3px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.next-button.Trying bottons {
-padding: 10px 20px;
-font-size: 20px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
-}
-
-.next-button Think.{
- text-indent: 3px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.next-button.Think bottons {
+.next-button botton {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -137,6 +105,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

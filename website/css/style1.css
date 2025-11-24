@@ -4,19 +4,19 @@
 }
 
 .next-button {
-  text-indent: 3px;
+ text-indent: 3px;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
 }
 
-.next-button button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  background-color: white;
-  color: black;
-  cursor: pointer;
+.next-button bottons {
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 8px;
+border: none;
+background-color:white;
+color: black;
+cursor: pointer;
 }
 
 html, body {
@@ -33,20 +33,20 @@ html, body {
   height: max-content;
   position: absolute;
   padding-inline: 15%;
-  padding-block: 5%;
+  padding-block : 10%;
 }
 
 .center .bottom {
   bottom: 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 70px;
-  gap: 30px;
+  gap: 30px ;
 }
 
 .center .bottom .buttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: end;
   align-items: end;
   flex: 0.5;
@@ -54,17 +54,25 @@ html, body {
   margin-right: 20%;
 }
 
+.box1 {
+  color: azure;
+  font-size: 26px;
+  margin-block: 10px;
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
   .center .bottom {
- flex-direction: column;
+    flex-direction: column;
   }
 
-  .main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: auto;
+.center .bottom .buttons {
+    margin-right: 0px;
   }
+
+.box1 p {
+  margin-block: 20px;
+}
 
 .link {
   padding-top: 30px;
@@ -74,7 +82,7 @@ html, body {
 }
 
 .link img {
-  width: 45px;
+  width: 45px;7
   opacity: 0.5;
   transition: all 0.5s;
 }
@@ -96,8 +104,18 @@ footer {
   display: block;
   padding-top: 5px;
 }
-
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

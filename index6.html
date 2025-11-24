@@ -1,44 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+  box-sizing: border-box;
+  font-family: 'Sarabun', sans-serif;
+}
 
-<head>
-    <style>
-        body {
-            background-image: url("website/images/background.jpg");
+.back-button {
+  text-indent: 3px;
+  text-align: center;
+  white-space: nowrap;
+}
 
-        }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milly </title>
-    <link rel="stylesheet" href="website/css/style6.css">
-</head>
+.back-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
 
-<body>
- <div class="center">
-     <div class="box1">
+.next-button {
+  text-indent: 3px;
+  text-align: center;
+  white-space: nowrap;
+}
 
-       <p>[You manage to fix it... but it says that you had to change to a new destination</p>
+.next-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
 
-       <p>first before going to the Cat Planet....]</p>
-     </div>
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
 
-    <div class="bottom">
-        <div class="buttons">
-            <div class="back-button">
-    <a href="index5.html">
-        <button type="button">back</button>
-    </a>
-</div>
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  padding-inline: 15%;
+  padding-block : 5%;
+}
 
-<div class="next-button">
-    <a href="index7.html">
-        <button type="button">next</button>
-    </a>
-</div>
+.center .bottom {
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  gap: 30px ;
+}
 
-        </div>
-    </div>
-</body>
+.center .bottom .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  flex: 0.5;
+  gap: 20px;
+  margin-right: 20%;
+}
 
-</html>
+.center .bottom .image {
+  flex: 1;
+  position: relative;
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.center .bottom .image img {
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .center .bottom {
+    flex-direction: column;
+  }
+
+  .center .bottom .image {
+    flex: initial;
+    width: 100%;
+    height: auto;
+    max-width: max-content;
+  }
+
+  .center .bottom .buttons {
+    margin-right: 0px;
+  }
+}
+
+.box1 {
+  color: azure;
+  font-size: 26px;
+  margin-block: 10px;
+  font-weight: bold; 
+}
+
+.box1 p {
+  margin-block: 20px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.link {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex: 1 0 auto;
+}
+
+.link img {
+  width: 45px;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.link img:hover {
+  opacity: 1;
+}
+
+footer {
+  width: 100%;
+  max-width: 800px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 auto;
+}
+
+.col-1 {
+  display: block;
+  padding-top: 5px;
+}

@@ -3,6 +3,22 @@
   font-family: 'Sarabun', sans-serif;
 }
 
+.next-button {
+  text-indent: 3px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.next-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 html, body {
   height: 100vh;
   width: 100vw;
@@ -82,6 +98,7 @@ footer {
 }
 
 }
+
 
 
 

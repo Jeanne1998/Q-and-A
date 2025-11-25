@@ -14,9 +14,7 @@ html, body {
 
  
 .container {
-  width: 100vw;
-  height: 100vh;
-  max-width: 1200px;
+ 
   background-image: url("../images/A\ -\ Copy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,5 +83,6 @@ footer {
     padding: 10px 0;
   }
 }
+
 
 

@@ -9,7 +9,8 @@
   white-space: normal;
 }
 
-.next-button bottons {
+/* แก้ไข Selector จาก bottons เป็น button */
+.next-button button {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -81,7 +82,7 @@ html, body {
 }
 
 .link img {
-  width: 45px;7
+  width: 45px;
   opacity: 0.5;
   transition: all 0.5s;
 }
@@ -104,22 +105,3 @@ footer {
   padding-top: 5px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

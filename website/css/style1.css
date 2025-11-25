@@ -38,13 +38,6 @@ img {
   margin: 0 auto;
 }
 
-.main-container {
-  display: flex;
-  align-items: center;
-  
-  height: 100vh;
-}
-
 
 .link {
   padding-top: 30px;
@@ -100,6 +93,7 @@ footer {
     padding: 10px 0;
   }
 }
+
 
 
 

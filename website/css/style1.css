@@ -19,18 +19,6 @@ img {
   height: auto;
   position: fixed;   
 }
- 
-.bottom {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
-  flex: 1 0 auto;
-  margin: 0 auto;
-}
 
 .center .bottom .image {
   flex: 1;
@@ -102,4 +90,5 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 

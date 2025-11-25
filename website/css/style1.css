@@ -15,7 +15,7 @@ img {
   border-radius: 5px;
   margin: 40px 0;  
   top: 550px;  
-  left: 750px;                  
+  left: 650px;                  
   height: auto;
   position: fixed;   
 }
@@ -106,6 +106,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

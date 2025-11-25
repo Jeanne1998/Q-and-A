@@ -9,7 +9,7 @@
   white-space: nowrap;
   top: 1200px;  
   left: 1200px;    
-  position: absolute;
+  position: relative;
 }
 
 .next-button button {
@@ -107,5 +107,6 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 

@@ -16,7 +16,7 @@ img {
   margin: 40px 0;                   
   height: auto;
   position: fixed;
-  top: 560px;  
+  top: 600px;  
   left: 750px; 
 }
 
@@ -90,6 +90,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

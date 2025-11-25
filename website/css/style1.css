@@ -4,12 +4,14 @@
 }
 
 .next-button {
- text-indent: 3px;
+  text-indent: 3px;
   text-align: center;
-  white-space: normal;
+  white-space: nowrap;
+  top: 700px;  
+  left: 1200px;    
+  position: absolute;
 }
 
-/* แก้ไข Selector จาก bottons เป็น button */
 .next-button button {
 padding: 10px 20px;
 font-size: 20px;
@@ -105,3 +107,4 @@ footer {
   padding-top: 5px;
 }
 }
+

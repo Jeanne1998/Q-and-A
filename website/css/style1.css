@@ -15,7 +15,9 @@ img {
   border-radius: 5px;
   margin: 40px 0;                   
   height: auto;
-  position: fixed;   
+  position: fixed;
+  top: 560px;  
+  left: 750px; 
 }
 
 .center .bottom .image {
@@ -88,6 +90,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

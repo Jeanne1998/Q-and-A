@@ -7,9 +7,6 @@
   text-indent: 3px;
   text-align: center;
   white-space: nowrap;
-  top: 1200px;  
-  left: 1200px;    
-  position: relative;
 }
 
 .next-button button {
@@ -107,6 +104,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

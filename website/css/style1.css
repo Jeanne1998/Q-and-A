@@ -1,59 +1,65 @@
+/* การตั้งค่าเริ่มต้นสำหรับทุกองค์ประกอบ */
 * {
-  box-sizing: border-box;
-  font-family: 'Sarabun', sans-serif;
+  box-sizing: border-box; /* ทำให้การคำนวณความกว้าง/ความสูงรวม padding และ border ด้วย */
+  font-family: 'Sarabun', sans-serif; /* ตั้งค่าฟอนต์หลักเป็น Sarabun */
 }
 
+/* ตั้งค่าสำหรับ HTML และ Body */
 html, 
 body {
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
+  height: 100%; /* ทำให้ html และ body มีความสูงเต็มหน้าจอ */
+  width: 100%; /* ทำให้ html และ body มีความกว้างเต็มหน้าจอ */
+  padding: 0px; 
+  margin: 0px; /* ลบระยะห่าง (padding/margin) เริ่มต้นของเบราว์เซอร์ออก */
 }
 
+/* สไตล์สำหรับส่วนหลักของหน้า (อาจจะเป็นเนื้อหาด้านล่างหรือส่วนใหญ่) */
 .bottom {
-  width: 100vw;
-  height: 100vh;
-  max-width: 1200px;
-  background-image: url("../images/A\ -\ Copy.jpg");
-  background-size: cover;
+  width: 100vw; /* ความกว้างเต็ม viewport width */
+  height: 100vh; /* ความสูงเต็ม viewport height */
+  max-width: 1200px; /* จำกัดความกว้างสูงสุดไว้ที่ 1200px */
+  background-image: url("../images/A\ -\ Copy.jpg"); /* กำหนดรูปภาพพื้นหลัง */
+  background-size: cover; /* ทำให้รูปภาพพื้นหลังคลุมพื้นที่ทั้งหมด */
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center ; /* จัดตำแหน่งรูปภาพพื้นหลังตรงกลาง */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  flex-direction: column; /* จัดเรียงเนื้อหาในแนวตั้ง */
+  align-items: center; /* จัดเนื้อหาให้อยู่กึ่งกลางในแนวนอน */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; /* เพิ่มเงาเล็กน้อย */
   flex: 1 0 auto;
-  margin: 0 auto;
+  margin: 0 auto; /* จัดกึ่งกลางบล็อกในแนวนอน */
 }
 
+/* สไตล์สำหรับเนื้อหาที่อยู่ตรงกลางภายใน .bottom */
 .center .bottom {
   bottom: 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน (เช่น รูปภาพอยู่ข้างข้อความ) */
   margin-top: 70px;
-  gap: 30px ;
+  gap: 30px ; /* ระยะห่างระหว่าง item ใน flexbox */
 }
 
+/* สไตล์สำหรับส่วนรูปภาพภายใน .center .bottom */
 .center .bottom .image {
-  flex: 1;
+  flex: 1; /* ทำให้ส่วนนี้ขยายเต็มพื้นที่ที่เหลือ */
   position: relative;
   max-width: 600px;
-
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: end; /* จัดเนื้อหาด้านในให้อยู่ด้านล่าง */
 }
 
+/* สไตล์สำหรับแท็กรูปภาพจริง */
 .center .bottom .image img {
-  border-radius: 5px;
+  border-radius: 5px; /* ทำให้มุมของรูปภาพโค้งมนเล็กน้อย */
   height: auto;
-  width: 100%;
+  width: 300px; /* ทำให้รูปภาพปรับขนาดตามความกว้างของคอนเทนเนอร์ */
 }
 
+/* Media Query: ปรับหน้าตาสำหรับหน้าจอที่มีความกว้างไม่เกิน 1000px (เช่น แท็บเล็ต หรือมือถือ) */
 @media (max-width: 1000px) {
   .center .bottom {
-    flex-direction: column;
+    flex-direction: column; /* เปลี่ยนการจัดเรียงจากแนวนอนเป็นแนวตั้ง */
   }
 
   .center .bottom .image {
@@ -63,18 +69,21 @@ body {
     max-width: max-content;
   }
 
+  /* สไตล์สำหรับปุ่ม (คลาส buttons ไม่ได้ให้มาในโค้ดต้นฉบับ แต่อยู่ใน media query นี้) */
   .center .bottom .buttons {
     margin-right: 0px;
   }
 }
 
+/* คอนเทนเนอร์หลักที่ครอบทุกอย่างไว้ */
 .main-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  align-items: center; /* จัดเนื้อหาในแนวนอนให้อยู่กึ่งกลาง */
+  justify-content: center; /* จัดเนื้อหาในแนวตั้งให้อยู่กึ่งกลาง */
+  height: 100vh; /* ความสูงเต็มหน้าจอ */
 }
 
+/* สไตล์สำหรับส่วนลิงก์ (เช่น ไอคอนโซเชียลมีเดีย) */
 .link {
   padding-top: 30px;
   display: flex;
@@ -82,29 +91,35 @@ body {
   flex: 1 0 auto;
 }
 
+/* สไตล์สำหรับรูปภาพภายในลิงก์ */
 .link img {
   width: 45px;
-  opacity: 0.5;
-  transition: all 0.5s;
+  opacity: 0.5; /* ทำให้รูปภาพจางลงเล็กน้อย */
+  transition: all 0.5s; /* เพิ่ม transition สำหรับ hover effect */
 }
 
+/* สไตล์เมื่อโฮเวอร์ (เอาเมาส์ไปชี้) ที่รูปภาพ */
 .link img:hover {
-  opacity: 1;
+  opacity: 1; /* ทำให้รูปภาพชัดขึ้นเมื่อโฮเวอร์ */
 }
 
+/* สไตล์สำหรับส่วนท้ายกระดาษ (footer) */
 footer {
   width: 100%;
   max-width: 800px;
   height: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* กระจายเนื้อหาใน footer ให้ห่างกัน */
   flex: 0 0 auto;
 }
 
+/* สไตล์สำหรับคอลัมน์แรก (col-1) ภายใน footer */
 .col-1 {
   display: block;
   padding-top: 5px;
 }
+
+
 
 
 

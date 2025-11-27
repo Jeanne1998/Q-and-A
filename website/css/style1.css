@@ -3,9 +3,10 @@
   font-family: 'Sarabun', sans-serif;
 }
 
-html, body {
-  height: 100vh;
-  width: 100vw;
+html, 
+body {
+  height: 100%;
+  width: 100%;
   padding: 0px;
   margin: 0px;
 }
@@ -24,6 +25,14 @@ html, body {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
   flex: 1 0 auto;
   margin: 0 auto;
+}
+
+.center .bottom {
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  gap: 30px ;
 }
 
 .center .bottom .image {
@@ -96,6 +105,7 @@ footer {
   display: block;
   padding-top: 5px;
 }
+
 
 
 

@@ -8,9 +8,8 @@
   text-align: center;
   white-space: normal;
 }
-.next-button-12 button, 
-.next-button-13 button, 
-.next-button-14 button {
+
+.next-button button {
   padding: 15px 30px;
   font-size: 24px;
   border-radius: 8px;
@@ -106,6 +105,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

@@ -3,51 +3,13 @@
   font-family: 'Sarabun', sans-serif;
 }
 
-.next-button 12{
+.next-button {
  text-indent: 3px;
   text-align: center;
   white-space: normal;
-  top: 370px;
-  position: static;
 }
 
-.next-button .12 bottons {
-padding: 10px 20px;
-font-size: 20px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
-}
-
-.next-button 13{
- text-indent: 3px;
-  text-align: center;
-  white-space: normal;
-  top: 430px;
-  position: static;
-}
-
-.next-button .13 bottons {
-padding: 10px 20px;
-font-size: 20px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
-}
-
-.next-button 14{
- text-indent: 3px;
-  text-align: center;
-  white-space: normal;
-  top: 490px;
-  position: static;
-}
-
-.next-button .14 bottons {
+.next-button .bottons {
 padding: 10px 20px;
 font-size: 20px;
 border-radius: 8px;
@@ -88,7 +50,7 @@ html, body {
   justify-content: end;
   align-items: end;
   flex: 0.5;
-  gap: 40px;
+  gap: 20px;
   margin-right: 20%;
 }
 
@@ -143,6 +105,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

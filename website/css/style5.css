@@ -8,14 +8,14 @@
   text-align: center;
   white-space: normal;
 }
-.next-button buttons {
-padding: 15px 30px;
-font-size: 24px;
-border-radius: 8px;
-border: none;
-background-color:white;
-color: black;
-cursor: pointer;
+.next-button button {
+  padding: 15px 30px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  background-color:white;
+  color: black;
+  cursor: pointer;
 }
 
 html, body {
@@ -104,6 +104,7 @@ footer {
   padding-top: 5px;
 }
 }
+
 
 
 

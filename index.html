@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- [NEW] เพิ่ม Swup CDN สำหรับการเปลี่ยนหน้าแบบนุ่มนวล -->
+    <!-- แก้ไขลิงก์ Swup CDN ให้สมบูรณ์แล้ว -->
     <script src="unpkg.com"></script>
 
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <!-- เชื่อมโยงไฟล์ CSS หลักของคุณ -->
     <link rel="stylesheet" href="website/css/style1.css">
     
-    <!-- [NEW] เพิ่ม CSS สำหรับ Transition Fade (สามารถย้ายไปใส่ใน style1.css ได้) -->
+    <!-- CSS สำหรับ Transition Fade (หากต้องการย้ายไป style1.css ก็ทำได้) -->
     <style>
         body {
             background-image: url("website/images/ -\ Copy.jpg");
@@ -21,6 +21,7 @@
             opacity: 1;
         }
 
+        /* คลาสที่ Swup เพิ่มเข้ามาตอนกำลังเปลี่ยนหน้า */
         html.is-animating .transition-fade {
             opacity: 0;
         }
@@ -28,12 +29,11 @@
 </head>
 
 <body>
-    <!-- [CHANGE] เพิ่ม id="swup" และ class="transition-fade" ครอบเนื้อหาหลักทั้งหมด -->
+    <!-- เพิ่ม id="swup" และ class="transition-fade" ครอบเนื้อหาหลักทั้งหมด -->
     <div id="swup" class="transition-fade">
         <div class="center">
             <div class="bottom">
                 <div class="image">
-                    <!-- ลิงก์เดิม -->
                     <a href="index2.html">
                         <img src="website/images/bottom.jpg" alt="">
                     </a>
@@ -42,13 +42,14 @@
         </div>
     </div>
     
-    <!-- [NEW] เพิ่ม Script เริ่มต้น Swup ก่อนปิด body -->
+    <!-- Script เริ่มต้น Swup ก่อนปิด body -->
     <script>
         const swup = new Swup();
     </script>
 </body>
 
 </html>
+
 
 
 

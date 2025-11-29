@@ -1,54 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- เพิ่ม Swup CDN สำหรับการเปลี่ยนหน้าแบบนุ่มนวล -->
-    <script src="unpkg.com"></script>
-
+<style>
+body {
+    background-image: url("website/images/ -\ Copy.jpg");
+    
+}
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milly </title>
-    <!-- เชื่อมโยงไฟล์ CSS หลักของคุณ -->
     <link rel="stylesheet" href="website/css/style1.css">
-    
-    <!-- CSS สำหรับ Transition Fade (อยู่ตรงนี้ หรือย้ายไป style1.css ก็ได้) -->
-    <style>
-        body {
-            background-image: url("website/images/ -\ Copy.jpg");
-        }
-        /* CSS สำหรับให้เนื้อหาค่อยๆ จางเข้า/ออก */
-        .transition-fade {
-            transition: opacity 0.5s ease-out;
-            opacity: 1;
-        }
-
-        /* คลาสที่ Swup เพิ่มเข้ามาตอนกำลังเปลี่ยนหน้า */
-        html.is-animating .transition-fade {
-            opacity: 0;
-        }
-    </style>
 </head>
 
 <body>
-    <!-- เพิ่ม id="swup" และ class="transition-fade" ครอบเนื้อหาหลักทั้งหมด -->
-    <div id="swup" class="transition-fade">
-        <div class="center">
-            <div class="bottom">
-                <div class="image">
-                    <a href="index2.html">
-                        <img src="website/images/bottom.jpg" alt="">
-                    </a>
-                </div>
-            </div>
+    <div class="center">
+    <div class="bottom">
+        <div class="image">
+            <a href="index2.html">
+                <img src="website/images/bottom.jpg" alt="">
+            </a>
         </div>
     </div>
-    
-    <!-- Script เริ่มต้น Swup ก่อนปิด body -->
-    <script>
-        const swup = new Swup();
-    </script>
+    </div>
 </body>
 
 </html>
+
 
 
 
